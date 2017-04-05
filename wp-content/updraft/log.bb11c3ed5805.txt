@@ -1,0 +1,365 @@
+0924.286 (1) Opened log file at time: Mon, 03 Apr 2017 17:19:22 +0000 on http://blog.rajen.info
+0924.286 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.38 WP: 4.7.3 PHP: 5.5.9-1ubuntu4.20 (apache2handler, Linux vps 3.13.0-24-generic #47-Ubuntu SMP Fri May 2 23:30:00 UTC 2014 x86_64) MySQL: 5.5.53 WPLANG: en_US Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3M | 3.3M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: N LANG: C ZipArchive::addFile: Y
+0924.287 (1) Free space on disk containing Updraft's temporary directory: 17061.5 MB
+0924.289 (1) Backup run: resumption=1, nonce=bb11c3ed5805, begun at=1491239038 (924s ago), job type=backup, previous check-in=5.4s
+0924.290 (1) Scheduling a resumption (2) after 300 seconds (1491240262) in case this run gets aborted
+0924.291 (1) Checking if we have a zip executable available
+0924.292 (1) Creation of backups of directories: already finished
+0924.293 (1) Saving backup status to database (elements: 8)
+0924.294 (1) Database dump (WordPress DB): Creation was completed already
+0924.296 (1) backup_2017-04-04-0103_RAJEN_807abcc88dcb-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0924.297 (1) backup_2017-04-04-0103_RAJEN_807abcc88dcb-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0924.298 (1) backup_2017-04-04-0103_RAJEN_807abcc88dcb-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0924.299 (1) backup_2017-04-04-0103_RAJEN_807abcc88dcb-others.zip: others: This file has not yet been successfully uploaded: will queue
+0924.299 (1) backup_2017-04-04-0103_RAJEN_bb11c3ed5805-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/var/www/html/wp-content/updraft/backup_2017-04-04-0103_RAJEN_bb11c3ed5805-db.gz)
+0924.301 (1) Recording as successfully uploaded: backup_2017-04-04-0103_RAJEN_bb11c3ed5805-db.gz (d0f2ba5d97630861d8443d0d0d0136e2)
+0924.304 (1) Saving backup history. Total backup size: Unknown
+0924.306 (1) Requesting upload of the files that have not yet been successfully uploaded (4)
+0924.308 (1) Cloud backup selection (1/1): googledrive (last)
+0924.309 (1) Beginning dispatch of backup to remote (googledrive)
+0924.310 (1) Google Drive: this account is not authorised
+0924.311 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0924.312 (1) Number of backup sets in history: 2; groups (db): 1
+0924.313 (1) Examining (for databases) backup set with group_id=0, nonce=bb11c3ed5805, datestamp=1491239038 (Apr 03 2017 17:03:58)
+0924.314 (1) This backup set is the backup set just made, so will not be deleted.
+0924.314 (1) Examining (for databases) backup set with group_id=0, nonce=4b499c57f38e, datestamp=1491152013 (Apr 02 2017 16:53:33)
+0924.315 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0924.316 (1) Number of backup sets in history: 2; groups (files): 1
+0924.317 (1) Examining (for files) backup set with nonce=bb11c3ed5805, datestamp=1491239038 (Apr 03 2017 17:03:58)
+0924.317 (1) This backup set is the backup set just made, so will not be deleted.
+0924.318 (1) This backup set is the backup set just made, so will not be deleted.
+0924.318 (1) This backup set is the backup set just made, so will not be deleted.
+0924.318 (1) This backup set is the backup set just made, so will not be deleted.
+0924.318 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0924.319 (1) Examining (for files) backup set with nonce=4b499c57f38e, datestamp=1491152013 (Apr 02 2017 16:53:33)
+0924.320 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0924.321 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0924.322 (1) Resume backup (bb11c3ed5805, 1): finish run
+0924.324 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0924.326 (1) The backup has not finished; a resumption is scheduled
+7706.020 (2) Opened log file at time: Mon, 03 Apr 2017 19:12:24 +0000 on http://blog.rajen.info
+7706.021 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.38 WP: 4.7.3 PHP: 5.5.9-1ubuntu4.20 (apache2handler, Linux vps 3.13.0-24-generic #47-Ubuntu SMP Fri May 2 23:30:00 UTC 2014 x86_64) MySQL: 5.5.53 WPLANG: en_US Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3M | 3.3M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: N LANG: C ZipArchive::addFile: Y
+7706.022 (2) Free space on disk containing Updraft's temporary directory: 17061.4 MB
+7706.041 (2) Backup run: resumption=2, nonce=bb11c3ed5805, begun at=1491239038 (7706s ago), job type=backup
+7706.043 (2) Long time past since expected resumption time: approx expected=1491240262.3, now=1491246744.1, diff=6481.8
+7706.043 (2) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+7706.044 (2) Scheduling a resumption (3) after 300 seconds (1491247044) in case this run gets aborted
+7706.046 (2) Checking if we have a zip executable available
+7706.047 (2) Creation of backups of directories: already finished
+7706.047 (2) Saving backup status to database (elements: 8)
+7706.049 (2) Database dump (WordPress DB): Creation was completed already
+7706.051 (2) backup_2017-04-04-0103_RAJEN_807abcc88dcb-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+7706.052 (2) backup_2017-04-04-0103_RAJEN_807abcc88dcb-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+7706.053 (2) backup_2017-04-04-0103_RAJEN_807abcc88dcb-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+7706.054 (2) backup_2017-04-04-0103_RAJEN_807abcc88dcb-others.zip: others: This file has not yet been successfully uploaded: will queue
+7706.054 (2) backup_2017-04-04-0103_RAJEN_bb11c3ed5805-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/var/www/html/wp-content/updraft/backup_2017-04-04-0103_RAJEN_bb11c3ed5805-db.gz)
+7706.056 (2) Recording as successfully uploaded: backup_2017-04-04-0103_RAJEN_bb11c3ed5805-db.gz (d0f2ba5d97630861d8443d0d0d0136e2)
+7706.061 (2) Saving backup history. Total backup size: Unknown
+7706.063 (2) Requesting upload of the files that have not yet been successfully uploaded (4)
+7706.065 (2) Cloud backup selection (1/1): googledrive (last)
+7706.066 (2) Beginning dispatch of backup to remote (googledrive)
+7706.067 (2) Google Drive: this account is not authorised
+7706.068 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+7706.070 (2) Number of backup sets in history: 2; groups (db): 1
+7706.070 (2) Examining (for databases) backup set with group_id=0, nonce=bb11c3ed5805, datestamp=1491239038 (Apr 03 2017 17:03:58)
+7706.071 (2) This backup set is the backup set just made, so will not be deleted.
+7706.072 (2) Examining (for databases) backup set with group_id=0, nonce=4b499c57f38e, datestamp=1491152013 (Apr 02 2017 16:53:33)
+7706.073 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+7706.073 (2) Number of backup sets in history: 2; groups (files): 1
+7706.074 (2) Examining (for files) backup set with nonce=bb11c3ed5805, datestamp=1491239038 (Apr 03 2017 17:03:58)
+7706.075 (2) This backup set is the backup set just made, so will not be deleted.
+7706.075 (2) This backup set is the backup set just made, so will not be deleted.
+7706.075 (2) This backup set is the backup set just made, so will not be deleted.
+7706.075 (2) This backup set is the backup set just made, so will not be deleted.
+7706.076 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+7706.076 (2) Examining (for files) backup set with nonce=4b499c57f38e, datestamp=1491152013 (Apr 02 2017 16:53:33)
+7706.077 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+7706.078 (2) Retain: saving new backup history (sets now: 2) and finishing retain operation
+7706.080 (2) Resume backup (bb11c3ed5805, 2): finish run
+7706.082 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+7706.083 (2) The backup has not finished; a resumption is scheduled
+8618.724 (3) Opened log file at time: Mon, 03 Apr 2017 19:27:36 +0000 on http://blog.rajen.info
+8618.724 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.38 WP: 4.7.3 PHP: 5.5.9-1ubuntu4.20 (apache2handler, Linux vps 3.13.0-24-generic #47-Ubuntu SMP Fri May 2 23:30:00 UTC 2014 x86_64) MySQL: 5.5.53 WPLANG: en_US Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3M | 3.3M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: N LANG: C ZipArchive::addFile: Y
+8618.725 (3) Free space on disk containing Updraft's temporary directory: 17061.4 MB
+8618.727 (3) Backup run: resumption=3, nonce=bb11c3ed5805, begun at=1491239038 (8618s ago), job type=backup
+8618.728 (3) Scheduling a resumption (4) after 300 seconds (1491247956) in case this run gets aborted
+8618.730 (3) Checking if we have a zip executable available
+8618.730 (3) Creation of backups of directories: already finished
+8618.731 (3) Saving backup status to database (elements: 8)
+8618.733 (3) Database dump (WordPress DB): Creation was completed already
+8618.735 (3) backup_2017-04-04-0103_RAJEN_807abcc88dcb-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+8618.736 (3) backup_2017-04-04-0103_RAJEN_807abcc88dcb-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+8618.737 (3) backup_2017-04-04-0103_RAJEN_807abcc88dcb-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+8618.737 (3) backup_2017-04-04-0103_RAJEN_807abcc88dcb-others.zip: others: This file has not yet been successfully uploaded: will queue
+8618.738 (3) backup_2017-04-04-0103_RAJEN_bb11c3ed5805-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/var/www/html/wp-content/updraft/backup_2017-04-04-0103_RAJEN_bb11c3ed5805-db.gz)
+8618.739 (3) Recording as successfully uploaded: backup_2017-04-04-0103_RAJEN_bb11c3ed5805-db.gz (d0f2ba5d97630861d8443d0d0d0136e2)
+8618.743 (3) Saving backup history. Total backup size: Unknown
+8618.766 (3) Requesting upload of the files that have not yet been successfully uploaded (4)
+8618.769 (3) Cloud backup selection (1/1): googledrive (last)
+8618.770 (3) Beginning dispatch of backup to remote (googledrive)
+8618.771 (3) Google Drive: this account is not authorised
+8618.793 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+8618.795 (3) Number of backup sets in history: 2; groups (db): 1
+8618.796 (3) Examining (for databases) backup set with group_id=0, nonce=bb11c3ed5805, datestamp=1491239038 (Apr 03 2017 17:03:58)
+8618.796 (3) This backup set is the backup set just made, so will not be deleted.
+8618.797 (3) Examining (for databases) backup set with group_id=0, nonce=4b499c57f38e, datestamp=1491152013 (Apr 02 2017 16:53:33)
+8618.798 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+8618.799 (3) Number of backup sets in history: 2; groups (files): 1
+8618.799 (3) Examining (for files) backup set with nonce=bb11c3ed5805, datestamp=1491239038 (Apr 03 2017 17:03:58)
+8618.800 (3) This backup set is the backup set just made, so will not be deleted.
+8618.801 (3) This backup set is the backup set just made, so will not be deleted.
+8618.801 (3) This backup set is the backup set just made, so will not be deleted.
+8618.801 (3) This backup set is the backup set just made, so will not be deleted.
+8618.801 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+8618.802 (3) Examining (for files) backup set with nonce=4b499c57f38e, datestamp=1491152013 (Apr 02 2017 16:53:33)
+8618.803 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+8618.803 (3) Retain: saving new backup history (sets now: 2) and finishing retain operation
+8618.806 (3) Resume backup (bb11c3ed5805, 3): finish run
+8618.807 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+8618.809 (3) The backup has not finished; a resumption is scheduled
+10112.185 (4) Opened log file at time: Mon, 03 Apr 2017 19:52:30 +0000 on http://blog.rajen.info
+10112.186 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.38 WP: 4.7.3 PHP: 5.5.9-1ubuntu4.20 (apache2handler, Linux vps 3.13.0-24-generic #47-Ubuntu SMP Fri May 2 23:30:00 UTC 2014 x86_64) MySQL: 5.5.53 WPLANG: en_US Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3M | 3.3M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: N LANG: C ZipArchive::addFile: Y
+10112.187 (4) Free space on disk containing Updraft's temporary directory: 17061.4 MB
+10112.188 (4) Backup run: resumption=4, nonce=bb11c3ed5805, begun at=1491239038 (10112s ago), job type=backup
+10112.189 (4) Long time past since expected resumption time: approx expected=1491247956.5, now=1491249150.2, diff=1193.7
+10112.190 (4) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+10112.191 (4) Scheduling a resumption (5) after 300 seconds (1491249450) in case this run gets aborted
+10112.193 (4) Checking if we have a zip executable available
+10112.193 (4) Creation of backups of directories: already finished
+10112.194 (4) Saving backup status to database (elements: 8)
+10112.196 (4) Database dump (WordPress DB): Creation was completed already
+10112.198 (4) backup_2017-04-04-0103_RAJEN_807abcc88dcb-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+10112.199 (4) backup_2017-04-04-0103_RAJEN_807abcc88dcb-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+10112.199 (4) backup_2017-04-04-0103_RAJEN_807abcc88dcb-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+10112.200 (4) backup_2017-04-04-0103_RAJEN_807abcc88dcb-others.zip: others: This file has not yet been successfully uploaded: will queue
+10112.201 (4) backup_2017-04-04-0103_RAJEN_bb11c3ed5805-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/var/www/html/wp-content/updraft/backup_2017-04-04-0103_RAJEN_bb11c3ed5805-db.gz)
+10112.203 (4) Recording as successfully uploaded: backup_2017-04-04-0103_RAJEN_bb11c3ed5805-db.gz (d0f2ba5d97630861d8443d0d0d0136e2)
+10112.206 (4) Saving backup history. Total backup size: Unknown
+10112.208 (4) Requesting upload of the files that have not yet been successfully uploaded (4)
+10112.210 (4) Cloud backup selection (1/1): googledrive (last)
+10112.211 (4) Beginning dispatch of backup to remote (googledrive)
+10112.212 (4) Google Drive: this account is not authorised
+10112.214 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+10112.215 (4) Number of backup sets in history: 2; groups (db): 1
+10112.216 (4) Examining (for databases) backup set with group_id=0, nonce=bb11c3ed5805, datestamp=1491239038 (Apr 03 2017 17:03:58)
+10112.217 (4) This backup set is the backup set just made, so will not be deleted.
+10112.217 (4) Examining (for databases) backup set with group_id=0, nonce=4b499c57f38e, datestamp=1491152013 (Apr 02 2017 16:53:33)
+10112.218 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+10112.219 (4) Number of backup sets in history: 2; groups (files): 1
+10112.220 (4) Examining (for files) backup set with nonce=bb11c3ed5805, datestamp=1491239038 (Apr 03 2017 17:03:58)
+10112.221 (4) This backup set is the backup set just made, so will not be deleted.
+10112.221 (4) This backup set is the backup set just made, so will not be deleted.
+10112.222 (4) This backup set is the backup set just made, so will not be deleted.
+10112.222 (4) This backup set is the backup set just made, so will not be deleted.
+10112.222 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+10112.224 (4) Examining (for files) backup set with nonce=4b499c57f38e, datestamp=1491152013 (Apr 02 2017 16:53:33)
+10112.225 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+10112.225 (4) Retain: saving new backup history (sets now: 2) and finishing retain operation
+10112.228 (4) Resume backup (bb11c3ed5805, 4): finish run
+10112.230 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+10112.231 (4) The backup has not finished; a resumption is scheduled
+11797.379 (5) Opened log file at time: Mon, 03 Apr 2017 20:20:35 +0000 on http://blog.rajen.info
+11797.380 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.38 WP: 4.7.3 PHP: 5.5.9-1ubuntu4.20 (apache2handler, Linux vps 3.13.0-24-generic #47-Ubuntu SMP Fri May 2 23:30:00 UTC 2014 x86_64) MySQL: 5.5.53 WPLANG: en_US Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3M | 3.3M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: N LANG: C ZipArchive::addFile: Y
+11797.381 (5) Free space on disk containing Updraft's temporary directory: 17061.3 MB
+11797.383 (5) Backup run: resumption=5, nonce=bb11c3ed5805, begun at=1491239038 (11797s ago), job type=backup
+11797.383 (5) Long time past since expected resumption time: approx expected=1491249450.2, now=1491250835.4, diff=1385.2
+11797.384 (5) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+11797.385 (5) Scheduling a resumption (6) after 300 seconds (1491251135) in case this run gets aborted
+11797.387 (5) Checking if we have a zip executable available
+11797.388 (5) Creation of backups of directories: already finished
+11797.389 (5) Saving backup status to database (elements: 8)
+11797.391 (5) Database dump (WordPress DB): Creation was completed already
+11797.394 (5) backup_2017-04-04-0103_RAJEN_807abcc88dcb-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+11797.401 (5) backup_2017-04-04-0103_RAJEN_807abcc88dcb-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+11797.402 (5) backup_2017-04-04-0103_RAJEN_807abcc88dcb-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+11797.403 (5) backup_2017-04-04-0103_RAJEN_807abcc88dcb-others.zip: others: This file has not yet been successfully uploaded: will queue
+11797.403 (5) backup_2017-04-04-0103_RAJEN_bb11c3ed5805-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/var/www/html/wp-content/updraft/backup_2017-04-04-0103_RAJEN_bb11c3ed5805-db.gz)
+11797.406 (5) Recording as successfully uploaded: backup_2017-04-04-0103_RAJEN_bb11c3ed5805-db.gz (d0f2ba5d97630861d8443d0d0d0136e2)
+11797.409 (5) Saving backup history. Total backup size: Unknown
+11797.411 (5) Requesting upload of the files that have not yet been successfully uploaded (4)
+11797.413 (5) Cloud backup selection (1/1): googledrive (last)
+11797.414 (5) Beginning dispatch of backup to remote (googledrive)
+11797.414 (5) Google Drive: this account is not authorised
+11797.416 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+11797.417 (5) Number of backup sets in history: 2; groups (db): 1
+11797.418 (5) Examining (for databases) backup set with group_id=0, nonce=bb11c3ed5805, datestamp=1491239038 (Apr 03 2017 17:03:58)
+11797.419 (5) This backup set is the backup set just made, so will not be deleted.
+11797.419 (5) Examining (for databases) backup set with group_id=0, nonce=4b499c57f38e, datestamp=1491152013 (Apr 02 2017 16:53:33)
+11797.420 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+11797.421 (5) Number of backup sets in history: 2; groups (files): 1
+11797.422 (5) Examining (for files) backup set with nonce=bb11c3ed5805, datestamp=1491239038 (Apr 03 2017 17:03:58)
+11797.422 (5) This backup set is the backup set just made, so will not be deleted.
+11797.423 (5) This backup set is the backup set just made, so will not be deleted.
+11797.423 (5) This backup set is the backup set just made, so will not be deleted.
+11797.423 (5) This backup set is the backup set just made, so will not be deleted.
+11797.423 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+11797.424 (5) Examining (for files) backup set with nonce=4b499c57f38e, datestamp=1491152013 (Apr 02 2017 16:53:33)
+11797.425 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+11797.426 (5) Retain: saving new backup history (sets now: 2) and finishing retain operation
+11797.428 (5) Resume backup (bb11c3ed5805, 5): finish run
+11797.429 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+11797.431 (5) The backup has not finished; a resumption is scheduled
+13136.927 (6) Opened log file at time: Mon, 03 Apr 2017 20:42:54 +0000 on http://blog.rajen.info
+13136.927 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.38 WP: 4.7.3 PHP: 5.5.9-1ubuntu4.20 (apache2handler, Linux vps 3.13.0-24-generic #47-Ubuntu SMP Fri May 2 23:30:00 UTC 2014 x86_64) MySQL: 5.5.53 WPLANG: en_US Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3M | 3.3M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: N LANG: C ZipArchive::addFile: Y
+13136.928 (6) Free space on disk containing Updraft's temporary directory: 17061.3 MB
+13136.931 (6) Backup run: resumption=6, nonce=bb11c3ed5805, begun at=1491239038 (13136s ago), job type=backup
+13136.931 (6) Long time past since expected resumption time: approx expected=1491251135.4, now=1491252175, diff=1039.6
+13136.932 (6) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+13136.933 (6) Scheduling a resumption (7) after 300 seconds (1491252474) in case this run gets aborted
+13136.935 (6) Checking if we have a zip executable available
+13136.935 (6) Creation of backups of directories: already finished
+13136.936 (6) Saving backup status to database (elements: 8)
+13136.938 (6) Database dump (WordPress DB): Creation was completed already
+13136.940 (6) backup_2017-04-04-0103_RAJEN_807abcc88dcb-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+13136.941 (6) backup_2017-04-04-0103_RAJEN_807abcc88dcb-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+13136.942 (6) backup_2017-04-04-0103_RAJEN_807abcc88dcb-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+13136.942 (6) backup_2017-04-04-0103_RAJEN_807abcc88dcb-others.zip: others: This file has not yet been successfully uploaded: will queue
+13136.943 (6) backup_2017-04-04-0103_RAJEN_bb11c3ed5805-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/var/www/html/wp-content/updraft/backup_2017-04-04-0103_RAJEN_bb11c3ed5805-db.gz)
+13136.945 (6) Recording as successfully uploaded: backup_2017-04-04-0103_RAJEN_bb11c3ed5805-db.gz (d0f2ba5d97630861d8443d0d0d0136e2)
+13136.949 (6) Saving backup history. Total backup size: Unknown
+13136.951 (6) Requesting upload of the files that have not yet been successfully uploaded (4)
+13136.953 (6) Cloud backup selection (1/1): googledrive (last)
+13136.954 (6) Beginning dispatch of backup to remote (googledrive)
+13136.955 (6) Google Drive: this account is not authorised
+13136.957 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+13136.958 (6) Number of backup sets in history: 2; groups (db): 1
+13136.958 (6) Examining (for databases) backup set with group_id=0, nonce=bb11c3ed5805, datestamp=1491239038 (Apr 03 2017 17:03:58)
+13136.959 (6) This backup set is the backup set just made, so will not be deleted.
+13136.960 (6) Examining (for databases) backup set with group_id=0, nonce=4b499c57f38e, datestamp=1491152013 (Apr 02 2017 16:53:33)
+13136.961 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+13136.962 (6) Number of backup sets in history: 2; groups (files): 1
+13136.962 (6) Examining (for files) backup set with nonce=bb11c3ed5805, datestamp=1491239038 (Apr 03 2017 17:03:58)
+13136.963 (6) This backup set is the backup set just made, so will not be deleted.
+13136.964 (6) This backup set is the backup set just made, so will not be deleted.
+13136.964 (6) This backup set is the backup set just made, so will not be deleted.
+13136.964 (6) This backup set is the backup set just made, so will not be deleted.
+13136.964 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+13136.965 (6) Examining (for files) backup set with nonce=4b499c57f38e, datestamp=1491152013 (Apr 02 2017 16:53:33)
+13136.966 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+13136.966 (6) Retain: saving new backup history (sets now: 2) and finishing retain operation
+13136.968 (6) Resume backup (bb11c3ed5805, 6): finish run
+13136.970 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+13136.972 (6) The backup has not finished; a resumption is scheduled
+15167.489 (7) Opened log file at time: Mon, 03 Apr 2017 21:16:45 +0000 on http://blog.rajen.info
+15167.490 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.38 WP: 4.7.3 PHP: 5.5.9-1ubuntu4.20 (apache2handler, Linux vps 3.13.0-24-generic #47-Ubuntu SMP Fri May 2 23:30:00 UTC 2014 x86_64) MySQL: 5.5.53 WPLANG: en_US Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3M | 3.3M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: N LANG: C ZipArchive::addFile: Y
+15167.490 (7) Free space on disk containing Updraft's temporary directory: 17061.3 MB
+15167.492 (7) Backup run: resumption=7, nonce=bb11c3ed5805, begun at=1491239038 (15167s ago), job type=backup
+15167.493 (7) Long time past since expected resumption time: approx expected=1491252474.8, now=1491254205.5, diff=1730.7
+15167.494 (7) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+15167.494 (7) Scheduling a resumption (8) after 300 seconds (1491254505) in case this run gets aborted
+15167.496 (7) Checking if we have a zip executable available
+15167.497 (7) Creation of backups of directories: already finished
+15167.497 (7) Saving backup status to database (elements: 8)
+15167.499 (7) Database dump (WordPress DB): Creation was completed already
+15167.501 (7) backup_2017-04-04-0103_RAJEN_807abcc88dcb-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+15167.502 (7) backup_2017-04-04-0103_RAJEN_807abcc88dcb-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+15167.503 (7) backup_2017-04-04-0103_RAJEN_807abcc88dcb-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+15167.503 (7) backup_2017-04-04-0103_RAJEN_807abcc88dcb-others.zip: others: This file has not yet been successfully uploaded: will queue
+15167.504 (7) backup_2017-04-04-0103_RAJEN_bb11c3ed5805-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/var/www/html/wp-content/updraft/backup_2017-04-04-0103_RAJEN_bb11c3ed5805-db.gz)
+15167.506 (7) Recording as successfully uploaded: backup_2017-04-04-0103_RAJEN_bb11c3ed5805-db.gz (d0f2ba5d97630861d8443d0d0d0136e2)
+15167.509 (7) Saving backup history. Total backup size: Unknown
+15167.511 (7) Requesting upload of the files that have not yet been successfully uploaded (4)
+15167.513 (7) Cloud backup selection (1/1): googledrive (last)
+15167.514 (7) Beginning dispatch of backup to remote (googledrive)
+15167.514 (7) Google Drive: this account is not authorised
+15167.516 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+15167.517 (7) Number of backup sets in history: 2; groups (db): 1
+15167.518 (7) Examining (for databases) backup set with group_id=0, nonce=bb11c3ed5805, datestamp=1491239038 (Apr 03 2017 17:03:58)
+15167.518 (7) This backup set is the backup set just made, so will not be deleted.
+15167.519 (7) Examining (for databases) backup set with group_id=0, nonce=4b499c57f38e, datestamp=1491152013 (Apr 02 2017 16:53:33)
+15167.520 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+15167.521 (7) Number of backup sets in history: 2; groups (files): 1
+15167.521 (7) Examining (for files) backup set with nonce=bb11c3ed5805, datestamp=1491239038 (Apr 03 2017 17:03:58)
+15167.522 (7) This backup set is the backup set just made, so will not be deleted.
+15167.523 (7) This backup set is the backup set just made, so will not be deleted.
+15167.523 (7) This backup set is the backup set just made, so will not be deleted.
+15167.523 (7) This backup set is the backup set just made, so will not be deleted.
+15167.523 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+15167.524 (7) Examining (for files) backup set with nonce=4b499c57f38e, datestamp=1491152013 (Apr 02 2017 16:53:33)
+15167.525 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+15167.525 (7) Retain: saving new backup history (sets now: 2) and finishing retain operation
+15167.527 (7) Resume backup (bb11c3ed5805, 7): finish run
+15167.529 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+15167.530 (7) The backup has not finished; a resumption is scheduled
+15852.196 (8) Opened log file at time: Mon, 03 Apr 2017 21:28:10 +0000 on http://blog.rajen.info
+15852.196 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.38 WP: 4.7.3 PHP: 5.5.9-1ubuntu4.20 (apache2handler, Linux vps 3.13.0-24-generic #47-Ubuntu SMP Fri May 2 23:30:00 UTC 2014 x86_64) MySQL: 5.5.53 WPLANG: en_US Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3M | 3.3M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: N LANG: C ZipArchive::addFile: Y
+15852.197 (8) Free space on disk containing Updraft's temporary directory: 17061.3 MB
+15852.199 (8) Backup run: resumption=8, nonce=bb11c3ed5805, begun at=1491239038 (15852s ago), job type=backup
+15852.199 (8) Scheduling a resumption (9) after 300 seconds (1491255190) in case this run gets aborted
+15852.201 (8) Checking if we have a zip executable available
+15852.202 (8) Creation of backups of directories: already finished
+15852.202 (8) Saving backup status to database (elements: 8)
+15852.204 (8) Database dump (WordPress DB): Creation was completed already
+15852.206 (8) backup_2017-04-04-0103_RAJEN_807abcc88dcb-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+15852.207 (8) backup_2017-04-04-0103_RAJEN_807abcc88dcb-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+15852.207 (8) backup_2017-04-04-0103_RAJEN_807abcc88dcb-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+15852.208 (8) backup_2017-04-04-0103_RAJEN_807abcc88dcb-others.zip: others: This file has not yet been successfully uploaded: will queue
+15852.209 (8) backup_2017-04-04-0103_RAJEN_bb11c3ed5805-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/var/www/html/wp-content/updraft/backup_2017-04-04-0103_RAJEN_bb11c3ed5805-db.gz)
+15852.210 (8) Recording as successfully uploaded: backup_2017-04-04-0103_RAJEN_bb11c3ed5805-db.gz (d0f2ba5d97630861d8443d0d0d0136e2)
+15852.213 (8) Saving backup history. Total backup size: Unknown
+15852.215 (8) Requesting upload of the files that have not yet been successfully uploaded (4)
+15852.217 (8) Cloud backup selection (1/1): googledrive (last)
+15852.218 (8) Beginning dispatch of backup to remote (googledrive)
+15852.219 (8) Google Drive: this account is not authorised
+15852.221 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+15852.222 (8) Number of backup sets in history: 2; groups (db): 1
+15852.223 (8) Examining (for databases) backup set with group_id=0, nonce=bb11c3ed5805, datestamp=1491239038 (Apr 03 2017 17:03:58)
+15852.223 (8) This backup set is the backup set just made, so will not be deleted.
+15852.224 (8) Examining (for databases) backup set with group_id=0, nonce=4b499c57f38e, datestamp=1491152013 (Apr 02 2017 16:53:33)
+15852.225 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+15852.226 (8) Number of backup sets in history: 2; groups (files): 1
+15852.226 (8) Examining (for files) backup set with nonce=bb11c3ed5805, datestamp=1491239038 (Apr 03 2017 17:03:58)
+15852.227 (8) This backup set is the backup set just made, so will not be deleted.
+15852.228 (8) This backup set is the backup set just made, so will not be deleted.
+15852.228 (8) This backup set is the backup set just made, so will not be deleted.
+15852.228 (8) This backup set is the backup set just made, so will not be deleted.
+15852.228 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+15852.229 (8) Examining (for files) backup set with nonce=4b499c57f38e, datestamp=1491152013 (Apr 02 2017 16:53:33)
+15852.230 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+15852.238 (8) Retain: saving new backup history (sets now: 2) and finishing retain operation
+15852.240 (8) Resume backup (bb11c3ed5805, 8): finish run
+15852.242 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+15852.244 (8) The backup has not finished; a resumption is scheduled
+17758.708 (9) Opened log file at time: Mon, 03 Apr 2017 21:59:56 +0000 on http://blog.rajen.info
+17758.710 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.38 WP: 4.7.3 PHP: 5.5.9-1ubuntu4.20 (apache2handler, Linux vps 3.13.0-24-generic #47-Ubuntu SMP Fri May 2 23:30:00 UTC 2014 x86_64) MySQL: 5.5.53 WPLANG: en_US Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 4.2M | 5.5M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: N LANG: C ZipArchive::addFile: Y
+17758.710 (9) Free space on disk containing Updraft's temporary directory: 17061.2 MB
+17758.712 (9) Backup run: resumption=9, nonce=bb11c3ed5805, begun at=1491239038 (17758s ago), job type=backup
+17758.713 (9) Long time past since expected resumption time: approx expected=1491255190.2, now=1491256796.7, diff=1606.6
+17758.714 (9) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+17758.715 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+17758.715 (9) Creation of backups of directories: already finished
+17758.716 (9) Saving backup status to database (elements: 8)
+17758.718 (9) Database dump (WordPress DB): Creation was completed already
+17758.738 (9) backup_2017-04-04-0103_RAJEN_807abcc88dcb-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+17758.740 (9) backup_2017-04-04-0103_RAJEN_807abcc88dcb-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+17758.742 (9) backup_2017-04-04-0103_RAJEN_807abcc88dcb-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+17758.742 (9) backup_2017-04-04-0103_RAJEN_807abcc88dcb-others.zip: others: This file has not yet been successfully uploaded: will queue
+17758.743 (9) backup_2017-04-04-0103_RAJEN_bb11c3ed5805-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/var/www/html/wp-content/updraft/backup_2017-04-04-0103_RAJEN_bb11c3ed5805-db.gz)
+17758.747 (9) Recording as successfully uploaded: backup_2017-04-04-0103_RAJEN_bb11c3ed5805-db.gz (d0f2ba5d97630861d8443d0d0d0136e2)
+17758.751 (9) Saving backup history. Total backup size: Unknown
+17758.754 (9) Requesting upload of the files that have not yet been successfully uploaded (4)
+17758.756 (9) Cloud backup selection (1/1): googledrive (last)
+17758.757 (9) Beginning dispatch of backup to remote (googledrive)
+17758.758 (9) Google Drive: this account is not authorised
+17758.760 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+17758.761 (9) Number of backup sets in history: 2; groups (db): 1
+17758.762 (9) Examining (for databases) backup set with group_id=0, nonce=bb11c3ed5805, datestamp=1491239038 (Apr 03 2017 17:03:58)
+17758.762 (9) This backup set is the backup set just made, so will not be deleted.
+17758.763 (9) Examining (for databases) backup set with group_id=0, nonce=4b499c57f38e, datestamp=1491152013 (Apr 02 2017 16:53:33)
+17758.763 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+17758.764 (9) Number of backup sets in history: 2; groups (files): 1
+17758.765 (9) Examining (for files) backup set with nonce=bb11c3ed5805, datestamp=1491239038 (Apr 03 2017 17:03:58)
+17758.766 (9) This backup set is the backup set just made, so will not be deleted.
+17758.766 (9) This backup set is the backup set just made, so will not be deleted.
+17758.767 (9) This backup set is the backup set just made, so will not be deleted.
+17758.767 (9) This backup set is the backup set just made, so will not be deleted.
+17758.767 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+17758.767 (9) Examining (for files) backup set with nonce=4b499c57f38e, datestamp=1491152013 (Apr 02 2017 16:53:33)
+17758.768 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+17758.769 (9) Retain: saving new backup history (sets now: 2) and finishing retain operation
+17758.771 (9) Resume backup (bb11c3ed5805, 9): finish run
+17758.773 (9) There were errors in the uploads, so the 'resume' event is remaining scheduled
+17758.774 (9) Fetching RSS news feed
+17758.776 (9) Fetched RSS news feed; result is a: SimplePie
+17758.778 (9) Sending email ('Files and database (Full backup)') report (attachments: 1, size: 38.1 KB) to: rajen...
+17758.790 (9) The backup attempt has finished, apparently unsuccessfully
